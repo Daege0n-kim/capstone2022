@@ -8,7 +8,7 @@
  
 - 김대건 (팀원-백앤드)
 ```
-- 졸업작품 소개 사이트 : http://asq.kr/?i=yAykGMuLl
+- 졸업작품 소개 사이트 : https://daege0n-kim.github.io/capstone2022/
 - 포트폴리오 소개 사이트 : URL
 ---
 
