@@ -32,15 +32,76 @@
 좀 더 구매 욕구를 증대하기 위한 여러 디테일들이 숨어있다. 모바일 쇼핑몰은 대부분 비슷한 레이아웃으로 차별점이
 없어, FLEX는 우리의 개성을 가장 잘 표현할 수 있는 PC 웹 기반으로 제작되었다.
 ```
+
+
+
+
+
 ---  
+---
+
+## [4월 13일]
+### 7주차 작업 내용 (개발 일지)
+```
+- ??
+- ??
+- ??
+```
 ---
 
 ## [4월 6일]
 ### 6주차 작업 내용 (개발 일지)
 ```
-- ??
-- ??
-- ??
+※프레임워크(이클립스->vscode로바꿈)
+
+-회원가입 페이지 
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/resources/css/join.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<form action="">
+	<div class="wrap">
+			<div class="subjecet">
+				<span>회원가입</span>
+			</div>
+			<div class="mail_wrap">
+				<div class="mail_name">이메일</div> 
+				<div class="mail_input_box">
+					<input class="mail_input">
+				</div>
+			</div>
+
+			<div class="pw_wrap">
+				<div class="pw_name">비밀번호</div>
+				<div class="pw_input_box">
+					<input class="pw_input">
+				</div>
+			</div>
+			
+			
+			<div class="join_button_wrap">
+				<input type="button" class="join_button" value="가입하기">
+			</div>
+		</div>
+	</form>
+</div>
+
+</body>
+</html>
+
+
+-추후 DB
+
+
 ```
 ---
 
