@@ -90,7 +90,41 @@
 </html>
 
 
--추후 DB
+
+
+- Flex_Member 테이블에 데이터를 저장하거나, 반환된 데이터를 담을 공간을 만들어보겠습니다
+
+
+package com.pg.flex.dto;
+
+public class MemberVO {
+    private String userEmail;
+	private String userPassword;
+	
+	
+	
+	public String getUserEmail() {
+		return userEmail;
+	}
+	public void setUserEmail(String userEmail) {
+		this.userEmail = userEmail;
+	}
+	public String getUserPassword() {
+		return userPassword;
+	}
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
+
+	
+}
+
+
+
+
+
+
+
 ```
 ---
 
