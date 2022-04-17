@@ -45,79 +45,31 @@
 ```
 ※프레임워크(이클립스->vscode로바꿈)
 
--회원가입 페이지 
+-로그인 기능구현
+※로그인 페이지는 따로 만들어서 구현
 
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet" href="/resources/css/join.css">
-</head>
-<body>
-
-<div class="wrapper">
-	<form action="">
-	<div class="wrap">
-			<div class="subjecet">
-				<span>회원가입</span>
-			</div>
-			<div class="mail_wrap">
-				<div class="mail_name">이메일</div> 
-				<div class="mail_input_box">
-					<input class="mail_input">
-				</div>
-			</div>
-
-			<div class="pw_wrap">
-				<div class="pw_name">비밀번호</div>
-				<div class="pw_input_box">
-					<input class="pw_input">
-				</div>
-			</div>
-			
-			
-			<div class="join_button_wrap">
-				<input type="button" class="join_button" value="가입하기">
-			</div>
-		</div>
-	</form>
-</div>
-
-</body>
-</html>
+## 컨트롤러: 리퀘스트 호출인식학고 ,프론트에서 로그인에 필요한 데이터를 받아주는역할을함
+![image](https://user-images.githubusercontent.com/70187585/163704433-1139163b-6712-486f-b622-e89f7cdfa357.png)
 
 
 
 
-- Flex_Member 테이블에 데이터를 저장하거나, 반환된 데이터를 담을 공간을 만들어보겠습니다
+
+## 서비스: 요청한 리퀘스트나 받아온값을 이용해 비즈니스 로직을 지음
+![image](https://user-images.githubusercontent.com/70187585/163704521-79a4dc9d-6533-44b9-a711-39a7b533d7eb.png)
 
 
-package com.pg.flex.dto;
 
-public class MemberVO {
-    private String userEmail;
-	private String userPassword;
-	
-	
-	
-	public String getUserEmail() {
-		return userEmail;
-	}
-	public void setUserEmail(String userEmail) {
-		this.userEmail = userEmail;
-	}
-	public String getUserPassword() {
-		return userPassword;
-	}
-	public void setUserPassword(String userPassword) {
-		this.userPassword = userPassword;
-	}
+##dao: mapper랑 연결을 해줄 함수를 만든다
+![image](https://user-images.githubusercontent.com/70187585/163704582-bd80f9df-daac-4fa7-90c3-801ae9c72870.png)
 
-	
-}
+
+
+##로컬에 있는 DB를 불러온다
+![image](https://user-images.githubusercontent.com/70187585/163704600-4a04a438-5bd4-4579-a3c3-96f81d820202.png)
+
+
+
 
 
 
