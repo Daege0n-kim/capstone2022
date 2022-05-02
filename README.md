@@ -43,6 +43,7 @@
 ### 9주차 작업 내용 (개발 일지)
 
 - STYLE페이지 html->jsp로 바꾸기(소스바꾸기)
+     ->이미지 경로, css경로 전부 다 바꾸기..
 
 ![image](https://user-images.githubusercontent.com/70187585/166222996-6523ba6c-fc7d-42f0-b489-2b1ff7ccec33.png)
 
