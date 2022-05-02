@@ -42,9 +42,16 @@
 ## [4월 27일]
 ### 9주차 작업 내용 (개발 일지)
 
-- ?
-- -?
-- -?
+- STYLE페이지 html->jsp로 바꾸기(소스바꾸기)
+
+![image](https://user-images.githubusercontent.com/70187585/166222996-6523ba6c-fc7d-42f0-b489-2b1ff7ccec33.png)
+
+
+- 찾기편하게 페이지별로 나누기(main,login,mypage,shop등등)
+
+![image](https://user-images.githubusercontent.com/70187585/166223145-d5ac3f75-68ab-484b-9604-b6ab15792b75.png)
+
+- ※추후 작업할것은 DB구성이나오면 html에다가 디비 연결해서 이미지 및 텍스트 
 
 
 ---  
