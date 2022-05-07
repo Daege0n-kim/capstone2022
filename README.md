@@ -73,6 +73,17 @@
 ![image](https://user-images.githubusercontent.com/70187585/167254474-ab2eee92-caea-43f1-92fd-58cc145b6a7a.png)
 
 
+7.실행결과
+
+![image](https://user-images.githubusercontent.com/70187585/167254643-d15ded22-d98a-48e2-a1c0-8e89094f481d.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/70187585/167254654-07d87b07-e43c-4d18-8bae-7c45f67a8c27.png)
+
+
+
 
 ---  
 ---
