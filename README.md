@@ -34,6 +34,52 @@
 ```
 
 
+---  
+---
+
+## [5월 4일]
+### 10주차 작업 내용 (개발 일지)
+
+
+
+
+1. DB의 테이블 구성
+
+![image](https://user-images.githubusercontent.com/70187585/167254007-c9e1d613-a8cc-4c39-8a07-f8043e038086.png)
+![image](https://user-images.githubusercontent.com/70187585/167254042-750665bd-e1cd-4fc4-b667-c5893e75a80e.png)
+
+
+
+2. 구성한 테이블에 데이터값 넣기
+
+![image](https://user-images.githubusercontent.com/70187585/167254101-d714be99-6ccd-47b7-a76f-59bf766ffd74.png)
+
+
+3. 로그인에 필요한 RestShopController.java
+
+![image](https://user-images.githubusercontent.com/70187585/167254329-587a1af1-9b96-4556-8600-d6802ee671b5.png)
+
+
+4. shop페이지에들어가기 위한 ShopController.java
+
+![image](https://user-images.githubusercontent.com/70187585/167254358-5d5d154a-11d0-4280-a8ec-b5ffe648198e.png)
+
+5. sign-up.jsp에 DB값을 받기위한 데이터설정
+
+![image](https://user-images.githubusercontent.com/70187585/167254431-a3c06b61-8037-4504-8c9c-ffb6d715ff91.png)
+
+6. 마지막으로 로그인에 필요한 Mapper.xml 쿼리문
+
+![image](https://user-images.githubusercontent.com/70187585/167254474-ab2eee92-caea-43f1-92fd-58cc145b6a7a.png)
+
+
+
+---  
+---
+
+
+
+
 
 
 ---  
