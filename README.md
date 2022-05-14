@@ -31,7 +31,79 @@
 한다면 충분한 경쟁력이 있다고 판단된다. FLEX 플랫폼은 깔끔하고 고급스러운 디자인으로 신뢰감과 트렌디함을 더하고, 
 좀 더 구매 욕구를 증대하기 위한 여러 디테일들이 숨어있다. 모바일 쇼핑몰은 대부분 비슷한 레이아웃으로 차별점이
 없어, FLEX는 우리의 개성을 가장 잘 표현할 수 있는 PC 웹 기반으로 제작되었다.
+
 ```
+
+
+---  
+---
+
+## [5월 11일]
+### 11주차 작업 내용 (개발 일지)
+
+
+
+## [1] DB에서 값을 불러와서 메인화면의 NEW ARRIVE부분 DB입력값 들어가게하기
+
+1. 초기화면(설정 전)
+![DB데이터 불러오기전](https://user-images.githubusercontent.com/70187585/168424931-c6aad12f-5eab-452a-b39d-0ff53c88b252.png)
+
+
+
+2. shopMapper.xml 수정
+
+![수정상황2](https://user-images.githubusercontent.com/70187585/168425001-be836213-2337-42ac-9492-012adbd96945.PNG)
+
+
+3. 메인 index.jsp 수정
+
+![수정한부분](https://user-images.githubusercontent.com/70187585/168425117-c22e10a4-6b42-4500-a006-7d73aadec9d9.PNG)
+
+
+
+4. 수정 후
+
+![수정 후](https://user-images.githubusercontent.com/70187585/168425145-79d6ef5f-1d90-4ae9-b0ee-47309796eed4.PNG)
+
+
+
+
+## [2] DB에있는 브랜드 정보 가져오기 및 여러작업
+
+
+5. DB에 있는 값을 갖고오는 Brand.dto
+
+![brand DTO](https://user-images.githubusercontent.com/70187585/168425240-b613b2f8-134b-4ac2-8a04-a734bc4219fe.PNG)
+
+
+6. 상품상세페이지 쿼리문작성(페이지x, 시간 단축위해 명령문 작성)
+
+![image](https://user-images.githubusercontent.com/70187585/168425369-418e73ba-79af-49ee-93c9-1f1e94b6f76d.png)
+
+
+7. MYpage 관련상품성택 API
+
+![image](https://user-images.githubusercontent.com/70187585/168425421-eabcc818-cb34-4d4c-8722-c4d2e85ee06b.png)
+
+
+
+
+## [3] 로컬DB에 배송테이블,카드정보테이블 추가
+
+<배송테이블>
+
+![0509 졸작](https://user-images.githubusercontent.com/70187585/168425505-fcc9ce49-b010-4257-bfbb-4e10248ac0ad.PNG)
+
+
+<카드정보 테이블>
+
+![0509 2졸작](https://user-images.githubusercontent.com/70187585/168425517-0f8ce9c0-45d0-456a-9862-6257784a205c.PNG)
+
+
+
+
+---  
+---
 
 
 ---  
