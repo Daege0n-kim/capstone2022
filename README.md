@@ -34,6 +34,83 @@
 
 ```
 
+---  
+---
+
+## [5월 18일]
+### 12주차 작업 내용 (개발 일지)
+
+
+
+## [1] MYPAGE 배송지관리 페이지 API 
+
+1. Mypage 배송지관리 페이지
+
+
+![image](https://user-images.githubusercontent.com/70187585/169697608-e1b9ebb2-9c15-4e68-a72b-33acbf371970.png)
+
+
+
+2. 배송지관리 페이지에 테이블 조회
+
+
+테이블 조회시 현재 값x
+
+
+->insert into 테이블명(컬럼명,컬럼명,컬럼명,컬럼명) values(값,값,값,값);
+
+
+기존 shipping_adress 테이블 조회
+
+
+![배송지 주소 입력값넣기(테스트)](https://user-images.githubusercontent.com/70187585/169697787-a317689b-789f-499a-a750-2fa2cca96ce3.PNG)
+
+
+
+
+3. 배송지관리 페이지 실제기능 API테스트
+
+
+![배송지관리 API(검토필요)](https://user-images.githubusercontent.com/70187585/169697828-0f51bae2-32c3-4701-b9ea-89d55af550e5.PNG)
+
+
+
+
+## [2] MYPAGE 결제수단 등록페이지 API
+
+1. Mypage 결제수단 등록페이지 테이블 조회 및 데이터 값 넣기
+
+
+
+![결제수단 등록(테스트)](https://user-images.githubusercontent.com/70187585/169697883-f0203176-3e6c-4e0b-a17e-8adb39f5d7fe.PNG)
+
+
+
+2. 결제수단 페이지 실제기능 API테스트 
+
+
+
+![결제수단 등록 API(검토필요)](https://user-images.githubusercontent.com/70187585/169697896-34a71c59-de9f-4997-acea-e8e3cf9026a4.PNG)
+
+
+
+
+※현재 페이지가 나오지않아 백엔드 API만 작성
+
+
+＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠추후 페이지나오면 작성해논 API에 페이지 연동해서 결과확인하기＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠＠
+
+
+
+
+※오류사항(해결x)
+
+
+
+![테이블오류](https://user-images.githubusercontent.com/70187585/169697947-d11db686-c204-488e-b11a-f53d789ecd7e.PNG)
+
+
+
 
 ---  
 ---
