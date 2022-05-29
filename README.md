@@ -34,6 +34,111 @@
 
 ```
 
+
+---  
+---
+
+## [5월 25일]
+### 13주차 작업 내용 (개발 일지)
+
+
+
+
+저번 시간 작업에 이어서 MYPAGE를 마무리하겠다
+
+## [1] MYPAGE 프론트엔드 작업물을 백엔드 기능 구현 
+
+1. Mypage 유저프로필 수정화면(로그인 시 마이페이지 접속)
+
+
+![mypageIndex](https://user-images.githubusercontent.com/70187585/170853415-af9e4d4b-b621-46f6-8c80-f9d386e95d48.PNG)
+
+
+
+2. Mypage에 기능 입히기(작업순서: 컨트롤러-> 서비스-> DAO ->MAPPER)
+
+
+2.1 컨트롤러 
+
+
+
+![mypageController작업](https://user-images.githubusercontent.com/70187585/170853466-ed078abf-0238-4a0f-b8c0-3ba7a430a2e3.PNG)
+
+
+
+
+2.2 컨트롤러를 연결하는 서비스구성
+
+
+![mypageService](https://user-images.githubusercontent.com/70187585/170853482-697b86d7-ae46-4adb-b92b-023bd5660e73.PNG)
+
+
+
+2.3 실제 DB에있는 데이터를 받는 DAO
+
+
+
+![mypageDAO](https://user-images.githubusercontent.com/70187585/170853513-a93aba0f-70f1-4fa9-88f5-47a1bcd7eac5.PNG)
+
+
+
+
+
+
+2.4 실제 DB에서 데이터를 가져오는 명령문을 나타내는 MAPPER
+
+![mypageMapper1](https://user-images.githubusercontent.com/70187585/170853525-6b6b6523-1c48-491b-bf61-5e7cc27b2438.PNG)
+
+
+
+
+※Resultmap 작성시 이름 동일하게 적어주기
+
+
+
+2.4 실제 DB에서 데이터를 가져오는 명령문을 나타내는 MAPPER2
+
+
+![mypageMapper2](https://user-images.githubusercontent.com/70187585/170853553-eaaa3c4b-6ff6-4f88-ab08-5c887db4965c.PNG)
+
+
+
+
+## [2] SHOP 페이지 API 구현(이미지 추가)
+
+
+
+
+
+![7페이지 SHOP 이미지API추가](https://user-images.githubusercontent.com/70187585/170853609-15f29458-1517-4a1a-8e16-0b41c93fc3f5.PNG)
+
+
+
+
+
+※ 문제발생(10페이지 유저이미지 수정)
+
+
+![10페이지 유저프로필api(문제발생)](https://user-images.githubusercontent.com/70187585/170853624-052aa5e3-4b14-422e-8109-5ffdd421de65.PNG)
+
+
+문제: 다른 유저추가 시 장바구니에 물품을 담으면 유저별로 구분해서 나와야하는데 다른 유저에 상품목록까지 합해진 가격이 나온다
+
+
+
+
+해결
+
+->![image](https://user-images.githubusercontent.com/70187585/170853746-55c32363-d53d-43a8-8e76-405a350a36df.png)
+
+
+
+---  
+---
+
+
+
+
 ---  
 ---
 
